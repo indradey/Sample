@@ -19,5 +19,5 @@ http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/json' });
     res.write(data.toString());
     res.end('Hello World\n');
-}).listen(port);
+}).listen(port)
 
